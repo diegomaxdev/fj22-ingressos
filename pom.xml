@@ -149,5 +149,17 @@
             </plugin>
         </plugins>
     </build>
+    
+    
+    <developers>
+    	<developer>
+    		<name>
+    			Diego Ferreira
+    		</name>
+    		<email>
+				diego@maxdev.com.br    		
+    		</email>
+    	</developer>
+    </developers>
 
 </project>
