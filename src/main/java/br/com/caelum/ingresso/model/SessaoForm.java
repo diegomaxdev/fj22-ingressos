@@ -1,11 +1,8 @@
 package br.com.caelum.ingresso.model;
 
 import java.time.LocalTime;
-
 import javax.validation.constraints.NotNull;
-
 import org.springframework.format.annotation.DateTimeFormat;
-
 import br.com.caelum.ingresso.dao.FilmeDao;
 import br.com.caelum.ingresso.dao.SalaDao;
 
