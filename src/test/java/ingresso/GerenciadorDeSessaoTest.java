@@ -1,5 +1,6 @@
 package ingresso;
 
+import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Arrays;
@@ -27,8 +28,8 @@ public class GerenciadorDeSessaoTest
 	@Before
 	public void preparaSessao() 
 	{
-		this.filme = new Filme("Rogue One",Duration.ofMinutes(120),"SCI-FI");
-		this.sala = new Sala("Sala 3D");
+		this.filme = new Filme("Rogue One",Duration.ofMinutes(120),"SCI-FI", BigDecimal.ONE);
+		this.sala = new Sala("Sala 3D", BigDecimal.TEN);
 		
 		this.sessaoDasDez = new Sessao(LocalTime.parse("10:00:00"), filme, sala);
 		this.sessaoDasTreze = new Sessao(LocalTime.parse("13:00:00"), filme, sala);
