@@ -41,7 +41,6 @@ public class GerenciadorDeSessaoTest
 		List<Sessao> sessoes = Arrays.asList(sessaoDasDez);
 		GerenciadorDeSessao gerenciador = new GerenciadorDeSessao(sessoes);
 		Assert.assertFalse(gerenciador.cabe(sessaoDasDez));
-		
 	}
 	
 	@Test
