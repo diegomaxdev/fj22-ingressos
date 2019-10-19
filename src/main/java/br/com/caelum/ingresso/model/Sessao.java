@@ -23,7 +23,7 @@ public class Sessao {
 
 	@ManyToOne
 	private Filme filme;
-
+	
 	private BigDecimal preco = BigDecimal.ZERO;
 
 	/** Somente para o uso do Hibernate */
@@ -71,8 +71,8 @@ public class Sessao {
 		this.preco = preco;
 	}
 
-	public Sessao(LocalTime horario, Filme filme, Sala sala) {
-		super();
+	public Sessao(LocalTime horario, Filme filme, Sala sala) 
+	{
 		this.horario = horario;
 		this.sala = sala;
 		this.filme = filme;
